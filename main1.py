@@ -34,6 +34,7 @@ def ai(text):
 
 
 st.title("Gamkers Ai Assistant")
+on = st.toggle('Activate feature')
 
 command = st.chat_input("how can I help you?")
 
